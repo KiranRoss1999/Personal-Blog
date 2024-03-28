@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Blog - Create New Post</title>
+    <!-- Link to shared CSS file -->
+    <link rel="stylesheet" href="assets/shared.css">
+    <!-- Link to specific index page CSS file -->
+    <link rel="stylesheet" href="assets/index.css"
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <div id="navbar">
+            <ul>
+                 <!-- Link to create new post (current page) -->
+                <li><a href="index.html">Whats on your mind?</a></li>
+                 <!-- Link to blog page -->
+                <li><a href="blog.html">Blog Page</a></li>
+            </ul>
+            <!-- Button for light/dark mode -->
+            <div><button id="light-mode"></button></div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Vertical divider class -->
+        <div class="dividerv"></div> 
+        <!-- Horizontal divider class -->
+        <div class="dividerh"></div> 
+        <!-- Webpage Title -->
+        <h1>Personal Blog</h1>
+        <!-- Form for creating new post -->
+        <form>
+            <h2>What's on your mind?</h2>
+                <!-- Username input field -->
+            <label for="username">Username</label>
+            <input type="text" id="username">
+            <!-- Title input field -->
+            <label for="title">Title</label>
+            <input type="text" id="title">
+            <!-- Content input field -->
+            <label for="content">Content</label>
+            <textarea name="content" id="content"></textarea>
+            <!-- Submit button -->
+            <button id="submit">Submit</button>
+        </form>
+        
+    </main>
+    <footer>
+         <!-- Footer section -->
+        <p>Made by Kiran Ross</p>
+        <p>Portfolio: <a href="https://github.com/KiranRoss1999/">GitHub</a></p>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="assets/logic.js"></script>
+    <script src="assets/form.js"></script>
+</body>
+</html>

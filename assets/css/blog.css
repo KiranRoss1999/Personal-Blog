@@ -1,0 +1,52 @@
+/* CSS for body, #blog, div, span, and media query */
+body {
+    /* Set body display properties */
+    display: flex;
+    flex-direction: column;
+}
+
+#blog {
+    /* Styling for blog section */
+    font-size: 18px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#blog div {
+    /* Styling for individual blog posts */
+    border: var(--dark2) 5px solid;
+    margin: 30px;
+    padding: 20px;
+}
+
+span {
+    /* Styling for italic text */
+    font-style: italic;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+    #navbar {
+        /* Navbar styling for larger screens */
+        flex-direction: row;
+    }
+
+    #navbar ul {
+        /* Navbar ul styling */
+        flex-direction: row;
+        gap: 2em;
+        margin: 1em;
+    }
+
+    #navbar div {
+        /* Navbar div styling */
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    main {
+        /* Main styling for larger screens */
+        flex-direction: row;
+        align-items: center;
+    }
+}

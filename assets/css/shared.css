@@ -1,0 +1,119 @@
+/* CSS for root variables, body, navbar, buttons, footer, and dark mode */
+:root {
+    /* Define root variables */
+    --lightylw: #fffc4d;
+    --lightred: #cf774f;
+    --dark0: #722323;
+    --dark1: #000000;
+    --dark2: #223949;
+}
+
+body, button {
+    /* Set font family for body and buttons */
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+body {
+    /* Set body display properties */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#navbar {
+    /* Navbar styling */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightylw);
+    color: var(--dark0);
+    padding: 10px;
+}
+
+#navbar ul {
+    /* Navbar ul styling */
+    list-style: none;
+    display: flex;
+    font-weight: bolder;
+}
+
+#light-mode {
+    /* Light mode button styling */
+    background-color: inherit;
+    border: none;
+    font-size: 40px;
+    padding: 15px;
+}
+
+main {
+    /* Main styling */
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/* Styling for input fields and textareas */
+input,
+textarea {
+    padding: 10px;
+}
+
+button {
+    /* Button styling */
+    padding: 20px;
+    border: none;
+    background-color: var(--lightylw);
+    color: var(--dark1);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    /* Button hover effect */
+    background-color: var(--dark1);
+    color: var(--lightylw);
+}
+
+footer {
+    /* Footer styling */
+    padding: 5px;
+    background-color: var(--lightred);
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.dividerh {
+    /* Horizontal divider styling */
+    border-top: 3px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+/* Dark mode styling */
+.dark #navbar, .dark footer {
+    background-color: var(--dark2);
+}
+
+.dark h2, .dark a {
+    color: var(--lightred);
+}
+
+.dark a:hover {
+    color: var(--lightylw);
+}
+
+.dark p, .dark span, .dark label {
+    color: var(--lightylw);
+}
+
+.dark input, .dark textarea {
+    background-color: var(--dark2);
+    color: var(--lightylw);
+}
+
+.dark #blog div {
+    background-color: var(--dark1);
+}
