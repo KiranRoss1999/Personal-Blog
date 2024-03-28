@@ -66,7 +66,7 @@ https://github.com/KiranRoss1999/Personal-Blog
 ## Usage
 
 ## Credits
-[stackoverflow - Media Query](https://stackoverflow.com/questions/13550541/media-min-width-max-width)
-[stackoverflow - invert color of a page](https://stackoverflow.com/questions/59420166/invert-color-of-a-page)
-[MDN Web Docs - if..else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+[stackoverflow - Media Query](https://stackoverflow.com/questions/13550541/media-min-width-max-width) By stackoverflow
+[stackoverflow - invert color of a page](https://stackoverflow.com/questions/59420166/invert-color-of-a-page) By stackoverflow
+[MDN Web Docs - if..else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) by Mozilla Developer Network
 [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/) by W3Schools
